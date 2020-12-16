@@ -13,6 +13,8 @@
 		2813D18E258A362400F5BCAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2813D18C258A362400F5BCAB /* Main.storyboard */; };
 		2813D190258A362600F5BCAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2813D18F258A362600F5BCAB /* Assets.xcassets */; };
 		2813D193258A362600F5BCAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2813D191258A362600F5BCAB /* LaunchScreen.storyboard */; };
+		2813D19B258A42FB00F5BCAB /* ArticleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813D19A258A42FB00F5BCAB /* ArticleItem.swift */; };
+		2813D19D258A438B00F5BCAB /* ArticleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813D19C258A438B00F5BCAB /* ArticleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2813D18F258A362600F5BCAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2813D192258A362600F5BCAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2813D194258A362600F5BCAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2813D19A258A42FB00F5BCAB /* ArticleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleItem.swift; sourceTree = "<group>"; };
+		2813D19C258A438B00F5BCAB /* ArticleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2813D18F258A362600F5BCAB /* Assets.xcassets */,
 				2813D191258A362600F5BCAB /* LaunchScreen.storyboard */,
 				2813D194258A362600F5BCAB /* Info.plist */,
+				2813D19A258A42FB00F5BCAB /* ArticleItem.swift */,
+				2813D19C258A438B00F5BCAB /* ArticleCollectionViewCell.swift */,
 			);
 			path = HaberlerApp_CollectionView;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				2813D18B258A362400F5BCAB /* ViewController.swift in Sources */,
 				2813D187258A362400F5BCAB /* AppDelegate.swift in Sources */,
+				2813D19D258A438B00F5BCAB /* ArticleCollectionViewCell.swift in Sources */,
 				2813D189258A362400F5BCAB /* SceneDelegate.swift in Sources */,
+				2813D19B258A42FB00F5BCAB /* ArticleItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
